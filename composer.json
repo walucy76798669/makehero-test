@@ -1,0 +1,22 @@
+{
+    "name": "makehero.cn/test",
+    "description": "这是一练手的例子",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WANGXU",
+            "email": "it_wangxuxu@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+           "app\\": ""
+      }
+
+   }
+}
